@@ -205,7 +205,7 @@ public class Java8Examples {
     }
 
     @Test
-    public void example_015__collect_to_linked_hashmap() {
+    public void example_015__collect_to_treeset() {
         final Set<String> uniqueSortedUserNames = userRepository.findUsers().stream()
                 .map(User::getFirstName)
                 .sorted(Comparator.naturalOrder())
