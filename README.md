@@ -1,2 +1,2 @@
 # java8-examples
-Java 8 Examples
+All examples are defined as test methods in `com.luwojtaszek.j8.examples.Java8Examples`.
